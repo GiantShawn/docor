@@ -1,6 +1,6 @@
 ## ![docor](./docor.png) docor ![NPM version](https://img.shields.io/npm/v/docor.svg?style=flat)
 
-a tiny cli tool to create elegant readme by manifest files, like `package.json`, `bower.json` and `manifest.json`
+A tiny README.md and LICENSE.md generation tool written by [@guo-yu](https://github.com/guo-yu/docor). I add some customization for my own use. 
 
 ### Installation
 ```bash

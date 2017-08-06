@@ -7,8 +7,7 @@
   "license": "MIT",
   "bin": "bin/cli",
   "scripts": {
-    "build": "node_modules/.bin/babel lib --out-dir dist --source-map",
-    "build": "node_modules/.bin/babel lib --out-dir dist --source-maps --watch",
+    "build": "babel lib --out-dir dist --source-maps",
     "example": "cd ./example && ../bin/cli"
   },
   "repository": {
@@ -26,11 +25,14 @@
     "document",
     "docor"
   ],
-  "dependencies":{
+  "dependencies": {
     "swig": "~1.4.2",
     "consoler": "~0.2.0"
   },
   "devDependencies": {
-    "babel": "5.1.11"
+    "babel": "5.1.11",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.0"
   }
 }
