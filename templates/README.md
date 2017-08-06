@@ -22,14 +22,12 @@ Example
 var {{pkg.parsedName}} = require('{{pkg.name}}');
 ```
 
+{% if apis && false %}
 API
 ---
-{% if apis %}
 {% for name,code in apis %}
 - {{pkg.name}}.{{name}}()
 {% endfor %}
-{% else %}
-check this file: `{{pkg.main}}`
 {% endif %}
 
 {% if pkg.license %}
